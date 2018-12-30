@@ -13,7 +13,7 @@ get_ipython().run_line_magic('matplotlib', 'inline')
 # In[2]:
 
 
-bankdata = pd.read_csv(r"C:\Users\Aditya\Documents\MASTERS\IRFAN\img_pixels.csv", header= None)  
+bankdata = pd.read_csv(r"img_pixels.csv", header= None)  
 
 
 # In[3]:
@@ -25,7 +25,7 @@ bankdata.head()
 # In[4]:
 
 
-df= pd.read_csv(r"C:\Users\Aditya\Documents\MASTERS\IRFAN\data.csv", header= None)
+df= pd.read_csv(r"data.csv", header= None)
 col= ['Temp', 'Prec', 'Dew', 'Air', 'pres','class']
 df.columns=col
 df.head()
@@ -91,11 +91,6 @@ clf.fit(x_train, y_train)
 
 
 # In[14]:
-
-
-#from sklearn.svm import LinearSVC
-#clf = LinearSVC(random_state=0)
-#clf.fit(x_train, y_train)
 
 
 # In[15]:
