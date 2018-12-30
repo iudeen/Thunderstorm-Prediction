@@ -29,7 +29,7 @@ def createFileList(myDir, format='.jpg'):
 # In[20]:
 
 
-myFileList = createFileList(r"C:\Users\DELL\Documents\Master\Sem_2\ML\Project\images")
+myFileList = createFileList(r"\images")
 
 
 # In[21]:
